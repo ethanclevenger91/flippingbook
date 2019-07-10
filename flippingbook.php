@@ -29,7 +29,7 @@ Author URI: http://flippingbook.com/__UnlockFBOnline?target=/about
 <?php
 class Flippingbook {
 	public $shortcode_tag = 'flippingbook';
-	function Flippingbook() {
+	function __construct() {
 		$cdl_mask = '#https?://(.*\.)?(cld\.mobi)|(cld\.bz)/.*#i';
 		$cld_provider = plugins_url().'/flippingbook/oembed.php?format={format}';
 		wp_oembed_add_provider( $cdl_mask, $cld_provider, true );
