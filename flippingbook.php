@@ -16,7 +16,7 @@ class Flippingbook {
 	public $flippingbook_mask = '#https?://(www\.)?(online)(.{0,7})?\.flippingbook\.com/view/.*#i';
 	public $flippingbook_domain_mask ='#(online)(.{0,7})?.flippingbook\.com#';
 
-	function Flippingbook() {
+	function __construct() {
 		$cld_provider = plugins_url().'/flippingbook/oembed.php?format={format}';
 		$flippingbook_provider = 'https://flippingbook.com/____fbonline/oembed/';
 		wp_oembed_add_provider( $this->cld_mask, $cld_provider, true );
