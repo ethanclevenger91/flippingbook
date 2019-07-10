@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: FlippingBook
+Plugin Name: FlippingBook - Sterner Stuff
 Plugin URI: https://flippingbook.com/__UnlockFBOnline?target=/
-Description: Embed FlippingBook interactive publications into your blog post or WordPress webpage quickly and easily.
-Version: 1.2.5
-Author: FlippingBook Team
+Description: Forked to remove deprecation warnings. Be sure to check the original for updates at https://wordpress.org/plugins/flippingbook/
+Version: 1.2.6
+Author: Sterner Stuff Design
 Author URI: http://flippingbook.com/__UnlockFBOnline?target=/about
 */
 ?>
